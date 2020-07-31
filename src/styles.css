@@ -1,0 +1,53 @@
+ /*You can add global styles to this file, and also import other style files */
+/*Reset css start*/
+ul{list-style-type: none;padding: 0;margin: 0;text-decoration: none;}
+a{text-decoration: none;}
+i{font-style: normal;}
+h1,h2,h3,h4,h5,h6,body,p,input,span,form,header,figure,label,strong,bold{margin: 0;font-weight: normal;}
+*{box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;-moz-box-sizing: border-box;}
+img{max-width: 100%;width: 100%;}
+body{font-family: 'OpenSans-Regular';}
+::-webkit-input-placeholder {opacity: 1; } ::-moz-placeholder {opacity: 1; } :-ms-input-placeholder {opacity: 1; } :-moz-placeholder {opacity: 1;}
+::-webkit-input-placeholder {color: #5c5c5f;} ::-moz-placeholder {color: #5c5c5f;} :-ms-input-placeholder {color: #5c5c5f;} :-moz-placeholder {color: #5c5c5f;}
+::-webkit-textarea-placeholder{font-size: 18px;}
+input[type="email"]::-webkit-input-placeholder{color: #5c5c5f;}
+input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration {display: none; }
+button[type="submit"]::-webkit-input-placeholder{color: #5c5c5f;}
+address{font-style: normal;}
+/*select {-webkit-appearance: none; -moz-appearance: none; appearance: none;}*/
+option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em; padding: 0px 2px 1px; }
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover,.btn-default:hover{background-color: #fff !important;}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{outline: transparent;box-shadow: none;}
+/*Reset css end*/
+
+/* common css start */
+    .full-width{float: left;width: 100%;}
+    h1,h2,h3,h4,h5,h6,p{float: left;width: 100%;font-family: 'Nunito', sans-serif;}
+    a,address{font-family: 'Nunito', sans-serif;}
+    .center{text-align: center;}
+    i{font-family: fontawesome;}
+    .margin-bottom{margin-bottom: 50px;}
+    .fooetr li a,.footer li address,.reach-us,.service-section:hover .services-image,.services-image figure,.services-image figure img,.service-section:hover .services-image,.service-section:hover .border-content,.services-image,.border-content,.border-content .border,.box-icon,.service-section:hover .border-content,.inner-content,.box-icon span,.box-icon span i,.service-section,.service-section:hover,.search-btn{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
+    ::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection {color: #fff; background: #0757a2;}
+    .section-padding{padding: 80px 0;}
+    .section-padding-bottom{padding-bottom: 80px;}
+    .margin-top{margin-top: 50px;float: left;width: 100%;}
+    .text-shadow{text-shadow: 8px 3px 12px #252a65;}
+    h1{font-family: 'Nunito', sans-serif;font-size: 65px;line-height: 70px;color: #fff;font-weight: 900;}
+    h2{font-size: 63px;line-height: 49px;font-family: 'Nunito', sans-serif;font-weight: 900;float: left;width: 100%;color: #252a65;}
+    h3{float: left;width: 100%;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 45px;line-height: 60px;color: #252a65;}
+    h4{float: left;width: 100%;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 19px;line-height: 24px;margin-bottom: 15px;color: #252a65;}
+    h5{float: left;width: 100%;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 18px;line-height: 20px;margin-bottom: 10px;color: #252a65;}
+    h6{float: left;width: 100%;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 16px;line-height: 18px;margin-bottom: 10px;color: #252a65;}
+    p{float: left;width: 100%;font-size: 17px;line-height: 25px;}
+    h2,h3,h4{position: relative;}
+    h2::before,h3::before{position: absolute;content: '';display: inline-block;width: 100px;height: 1px;border-bottom: 4px solid #252a65;left: 0;top: -20px;}
+    h4::after{position: absolute;content: '';display: inline-block;border: 2px solid #252a65;bottom: -10px;width: 50px;left: 0;}
+    .main-title{margin-bottom: 30px;}
+    .center{text-align: center;}
+    .main-title h3{width: 276px;float: none;display: inline-block;max-width: 100%;}
+    .box-shadow{box-shadow: 0px 0px 18px rgba(0,0,0,0.5);}
+    .box-shadow1{box-shadow: 0px 0px 20px rgba(0,0,0,0.9);}
+    .auto-width{float: left;}
+    a:hover{text-decoration: none;}
+/* common css end */

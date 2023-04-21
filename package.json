@@ -26,7 +26,7 @@
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
-    "mongoose": "^5.9.26",
+    "mongoose": "^5.13.15",
     "mongoose-type-email": "^1.0.12",
     "morgan": "^1.10.0",
     "ng2-search-filter": "^0.5.1",
